@@ -1,4 +1,4 @@
-# python-template
+# ICS3U-Unit5-02-Python
 
 
-[![GitHub's Super Linter](https://github.com/Huzaifa-Khalid-2/ICS3U-Unit5-01-Python/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Huzaifa-Khalid-2/ICS3U-Unit5-01-Python/actions)
+[![GitHub's Super Linter](https://github.com/Huzaifa-Khalid-2/ICS3U-Unit5-02-Python/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Huzaifa-Khalid-2/ICS3U-Unit5-02-Python/actions)

@@ -5,19 +5,12 @@
 # This program calculates the area of a triangle with functions
 
 
-def calculate_area(base_as_string, height_as_string):
-    # calculate temperature
+def calculate_area(base_as_int, height_as_int):
+    # calculate area
 
     # output
-    try:
-        height = int(height_as_string)
-        base = int(base_as_string)
-        area = (base * height) / 2
-        print("\nThe area is {} m² ".format(area))
-    except Exception:
-        print("\nInavald, input")
-    finally:
-        print("\nDone")
+    area = (base * height) / 2
+    print("\nThe area is {} m² ".format(area))
 
 
 def main():
@@ -27,8 +20,16 @@ def main():
     height_as_string = input("Enter the base (m): ")
     base_as_string = input("\nEnter the height (m): ")
 
-    # call functions
-    calculate_area(base_as_string, height_as_string)
+
+    try:
+        height_as_int = int(height_as_string)
+        base_as_int = int(base_as_string)
+        # call functions
+        calculate_area(base_int, height_int)
+    except Exception:
+        print("\nInavald, input")
+    finally:
+        print("\nDone")
 
 
 if __name__ == "__main__":

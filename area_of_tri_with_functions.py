@@ -9,7 +9,7 @@ def calculate_area(base_as_int, height_as_int):
     # calculate area
 
     # output
-    area = (base * height) / 2
+    area = (base_as_int * height_as_int) / 2
     print("\nThe area is {} m² ".format(area))
 
 
@@ -20,12 +20,10 @@ def main():
     height_as_string = input("Enter the base (m): ")
     base_as_string = input("\nEnter the height (m): ")
 
-
     try:
         height_as_int = int(height_as_string)
         base_as_int = int(base_as_string)
-        # call functions
-        calculate_area(base_int, height_int)
+        calculate_area(base_as_int, height_as_int)
     except Exception:
         print("\nInavald, input")
     finally:
@@ -34,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
